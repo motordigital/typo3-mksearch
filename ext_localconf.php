@@ -61,6 +61,20 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_mksearch_sch
     'additionalFields' => 'tx_mksearch_scheduler_IndexTaskAddFieldProvider'
 );
 
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_mksearch_scheduler_CleanIndexTask'] = array(
+    'extension'        => $_EXTKEY,
+    'title'            => 'LLL:EXT:' . $_EXTKEY . '/locallang_db.xml:scheduler_cleanIndexTask_name',
+    'description'      => 'LLL:EXT:' . $_EXTKEY . '/locallang_db.xml:scheduler_cleanIndexTask_description',
+    'additionalFields' => 'tx_mksearch_scheduler_CleanIndexTaskAddFieldProvider'
+);
+
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_mksearch_scheduler_ElasticSearchCleanIndexTask'] = array(
+    'extension'        => $_EXTKEY,
+    'title'            => 'LLL:EXT:' . $_EXTKEY . '/locallang_db.xml:scheduler_elasticSearchCleanIndexTask_name',
+    'description'      => 'LLL:EXT:' . $_EXTKEY . '/locallang_db.xml:scheduler_elasticSearchCleanIndexTask_description',
+    'additionalFields' => 'tx_mksearch_scheduler_ElasticSearchCleanIndexTaskAddFieldProvider'
+);
+
 
 if (tx_rnbase_util_Extensions::isLoaded('mksanitizedparameters')) {
     require_once(tx_rnbase_util_Extensions::extPath($_EXTKEY).'ext_mksanitizedparameter_rules.php');

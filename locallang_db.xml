@@ -44,6 +44,17 @@
             <label index="scheduler_indexTask_field_amountOfItems">Amount of items to be indexed per run</label>
             <label index="scheduler_indexTask_taskinfo">Index %d items per run. Currently %d items in queue.</label>
 
+            <label index="scheduler_cleanIndexTask_name">MKSearch CleanIndexing</label>
+            <label index="scheduler_cleanIndexTask_description">Clean the index</label>
+            <label index="scheduler_cleanIndexTask_field_cleanTables">Tables to clean(comma separated list)</label>
+            <label index="scheduler_cleanIndexTask_taskinfo">Taskinfo</label>
+
+            <label index="scheduler_elasticSearchCleanIndexTask_name">ElasticSearch CleanIndexing</label>
+            <label index="scheduler_elasticSearchCleanIndexTask_description">Clean the index</label>
+            <label index="scheduler_elasticSearchCleanIndexTask_field_url">Url from ElasticSearch</label>
+            <label index="scheduler_elasticSearchCleanIndexTask_taskinfo">Taskinfo</label>
+
+
             <label index="tx_mksearch_indices">Index</label>
             <label index="tx_mksearch_indices.hidden">Hidden, i.e. creation / update of index is disabled</label>
             <label index="tx_mksearch_indices.title">Title</label>
@@ -99,6 +110,9 @@
             <label index="scheduler_indexTask_description">Startet die Indizierung von Dokumenten</label>
             <label index="scheduler_indexTask_field_amountOfItems">Anzahl von Dokumenten pro Indexlauf</label>
             <label index="scheduler_indexTask_taskinfo">Es werden %d Dokumente pro Lauf indiziert. Aktuell sind %d Dokumente in der Warteschlange.</label>
+            <label index="scheduler_cleanIndexTask_name">MKSearch Reset Indizierung</label>
+            <label index="scheduler_cleanIndexTask_description">Resets Indizierung von Dokumenten</label>
+            <label index="scheduler_cleanIndexTask_field_cleanTables">Tabellen zum reseten des Index</label>
 
             <label index="plugin_common_enable">Aktivieren</label>
             <label index="plugin.mksearch.tt_content.header_layout">Verborgen (aber via mksearch indiziert)</label>
