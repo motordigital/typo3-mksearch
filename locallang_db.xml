@@ -44,12 +44,12 @@
             <label index="scheduler_indexTask_field_amountOfItems">Amount of items to be indexed per run</label>
             <label index="scheduler_indexTask_taskinfo">Index %d items per run. Currently %d items in queue.</label>
 
-            <label index="scheduler_cleanIndexTask_name">MKSearch CleanIndexing</label>
+            <label index="scheduler_cleanIndexTask_name">Generate MK_Search Indexing Queue</label>
             <label index="scheduler_cleanIndexTask_description">Clean the index</label>
             <label index="scheduler_cleanIndexTask_field_cleanTables">Tables to clean(comma separated list)</label>
             <label index="scheduler_cleanIndexTask_taskinfo">Taskinfo</label>
 
-            <label index="scheduler_elasticSearchCleanIndexTask_name">ElasticSearch CleanIndexing</label>
+            <label index="scheduler_elasticSearchCleanIndexTask_name">Clean the Elasticsearch Index</label>
             <label index="scheduler_elasticSearchCleanIndexTask_description">Clean the index</label>
             <label index="scheduler_elasticSearchCleanIndexTask_field_url">Url from ElasticSearch</label>
             <label index="scheduler_elasticSearchCleanIndexTask_taskinfo">Taskinfo</label>
