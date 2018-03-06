@@ -52,7 +52,7 @@ class tx_mksearch_scheduler_ElasticSearchCleanIndexTask extends Tx_Rnbase_Schedu
         try {
             $data_string = '{"query": {"match_all": {}}}';
 
-            $ch = curl_init(trim($this->getUrl()).'/perfar/_delete_by_query?conflicts=proceed');
+            $ch = curl_init(trim($this->getUrl()).'/_delete_by_query?conflicts=proceed');
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
             curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

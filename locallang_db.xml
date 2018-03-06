@@ -49,9 +49,9 @@
             <label index="scheduler_cleanIndexTask_field_cleanTables">Tables to clean(comma separated list)</label>
             <label index="scheduler_cleanIndexTask_taskinfo">Taskinfo</label>
 
-            <label index="scheduler_elasticSearchCleanIndexTask_name">Clean the Elasticsearch Index</label>
+            <label index="scheduler_elasticSearchCleanIndexTask_name">Clean the elasticsearch Index</label>
             <label index="scheduler_elasticSearchCleanIndexTask_description">Clean the index</label>
-            <label index="scheduler_elasticSearchCleanIndexTask_field_url">Url from ElasticSearch</label>
+            <label index="scheduler_elasticSearchCleanIndexTask_field_url">Url from elasticsearch incl. index name, e.g. localhost:9200/indexname</label>
             <label index="scheduler_elasticSearchCleanIndexTask_taskinfo">Taskinfo</label>
 
 
